@@ -1,0 +1,50 @@
+# USeful Commands [More Commands](https://github.com/react-native-community/cli/blob/main/docs/commands.md)
+
+- npm install
+- npx react-native upgrade
+- rm -rf node_modules && npm install
+- npx react-native run-androi
+- npx react-native run-ios
+- npx start
+- npx react-native init
+
+## EXPO Cli
+- **To Create React Native Project with default template**
+- npx create-expo-app@latest
+- **To Create React Native Project with Template Option**
+- npx create-expo-app --template 
+- If you are not using latest npm version it will hint
+- npm install -g npm@11.0.0 
+- cd my-rn-app
+- npm run android
+- npm run ios
+- npm run web
+
+
+## To run on Emulator
+
+- react-native run-ios
+- react-native run-android
+- npx react-native run-android --deviceId='DeviceId'
+- adb devices (TO get specific device id)
+
+## Clean watchman or Clear bundle
+
+- watchman watch-del-all
+
+
+
+
+## Using cl
+
+- npx react-native init [PROJECT-NAME]
+- react-native init [PROJECT-NAME] --package=com.organization.project.app
+- cd [PROJECT-NAME]
+- npx react-native run-android
+- npx react-native run-ios
+- npx react-native build-android
+- npx react-native build-ios
+- npx react-native link [LIBRARY-NAME] ( Link dependencies to native projects )
+- watchman watch-del-all (If something don’t run as expected, maybe you need to clear and create a new bundle with this command.)
+- To Start Metro - npm start
+- To Run in IOS - npm run ios
